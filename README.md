@@ -1,27 +1,37 @@
 # Desafio-Convertidor-de-Monedas-Alura-Latam
 Challenge One - Convertidor de monedas Consumiendo una API - Alura One Java Bak End
-##Índice
+---
+Título: Conversor de Monedas <br>
+Autor: Cespedes Jesús Manuel <br>
+Fecha 04-2024
+---
 
-*[Título e imagen de portada](#Título-e-imagen-de-portada)
+## Descripción
+Un conversor de monedas simple y eficiente construido en Java, que utiliza la API de ExchangeRate-API para obtener las tasas de cambio actuales. Este proyecto permite a los usuarios convertir entre diferentes monedas utilizando las tasas de cambio en tiempo real.
 
-*[Insignias](#insignias)
+### Requisitos
+Java Development Kit (JDK) 11 o superior.
+IntelliJ IDEA o cualquier otro IDE de Java.
+Acceso a Internet para consumir la API de ExchangeRate-API.
+Gson
+### Configuración del Entorno
+Asegúrate de tener instalado JDK 11 o superior. Puedes verificar su versión de Java ejecutando ___java -version___ en la terminal.
 
-*[Índice](#índice)
+#### Creación del Proyecto: 
+Importación de la Biblioteca Gson:
+Abre tu proyecto en IntelliJ.
+Haz clic derecho sobre la carpeta del proyecto en el panel izquierdo.
+Selecciona "Open Module Settings" en el menú contextual.
+Ve a la pestaña "Dependencies".
+Haz clic en el signo "+" en la esquina inferior izquierda y elige "Library".
+Busca "gson" en el cuadro de búsqueda.
+Selecciona la versión de Gson que desees utilizar.
+Haz clic en "OK" para cerrar la ventana.
 
-*[Descripción del proyecto](#descripción-del-proyecto)
+#### Obtener la Clave de API:
+Regístrate en ExchangeRate-API para obtener una clave de API gratuita.
+Guarda tu clave de API en un lugar seguro para su uso en el proyecto.
 
-*[Estado del proyecto](#Estado-del-proyecto)
-
-*[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
-
-*[Acceso al proyecto](#acceso-proyecto)
-
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
-
-*[Personas Contribuyentes](#personas-contribuyentes)
-
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
-
-* [Licencia](#licencia)
-
-*[Conclusión](#conclusión)
+#### Uso del Conversor de Monedas
+Desde el menu de opciones debe elegir cual par de monedas desea cambiar, después debe ingresar el monto a convertir y el sistema devolverá el valor del cambio de divisa.
+En la opción 7 se debe ingresar la nomenclatura de las monedas que desea cambiar, este debe ser ingresado segun la norma ISO 4217 por ejmplo USD, ARS, COP, BRL etc
