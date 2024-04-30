@@ -56,7 +56,7 @@ public class Principal {
                         monedaDestino = ingreso.nextLine();
                         busqueda1 = buscaMoneda.buscarMoneda(monedaBase);
                         busqueda2 = buscaMoneda.buscarMoneda(monedaDestino);
-                        if (busqueda1.result() == "error" || busqueda2.result() == "error") {
+                        if (busqueda1.result().equals("error") || busqueda2.result().equals("error")) {
                             System.out.println("No se encontraron divisas");
                         } else {
                             resultado = convertir.convierteMoneda(monedaBase, monedaDestino);
@@ -74,12 +74,8 @@ public class Principal {
             } catch (InputMismatchException e) {
                 System.out.println("Debe ingresar un número valido");
                 ingreso.nextLine();
-
             }
         }
-
-
-
     }
 
 

@@ -8,7 +8,7 @@ public record Moneda (String result,
     @Override
     public String toString() {
         return "Operación: " + base_code + " => " + target_code + "\n"+
-                "Tasa de Conversión: " + conversion_rate + " fecha de actualización: " + time_next_update_utc + "\n" +
+                "Tasa de Conversión: $ " + conversion_rate + " fecha de actualización: " + time_next_update_utc + "\n" +
                 "Resultado de la converción: $ " + conversion_result +"\n\n";
     }
 }
