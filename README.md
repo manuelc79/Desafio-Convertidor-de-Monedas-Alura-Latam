@@ -32,6 +32,8 @@ Haz clic en "OK" para cerrar la ventana.
 Regístrate en ExchangeRate-API para obtener una clave de API gratuita.
 Guarda tu clave de API en un lugar seguro para su uso en el proyecto.
 
+![Badge-Conversor](https://github.com/manuelc79/Desafio-Convertidor-de-Monedas-Alura-Latam/assets/34587375/c90ef95a-7432-466f-9db9-fc185a7473e6)
+
 #### Uso del Conversor de Monedas
 Desde el menu de opciones debe elegir cual par de monedas desea cambiar, después debe ingresar el monto a convertir y el sistema devolverá el valor del cambio de divisa.
 En la opción 7 se debe ingresar la nomenclatura de las monedas que desea cambiar, este debe ser ingresado segun la norma ISO 4217 por ejmplo USD, ARS, COP, BRL etc
